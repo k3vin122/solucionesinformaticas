@@ -1,16 +1,63 @@
-.red{
+/*.red{
 	position: fixed;
 	top: 200px;
 	z-index: 100;
 	left: 0;
+}*/
+
+
+.red {
+    position: fixed;
+    bottom: 0;
+    height: 28px;
+    border: none;
+    background: #ffffff;
+    z-index: 4999991;
+    transform: translateZ(0) translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0) translate3d(0, 0, 0);
+    -moz-transform: translateZ(0) translate3d(0, 0, 0);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    align-items: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    width: 100%;
+    box-shadow: 0px -3px 3px 0px rgba(0,0,0,0.12);
 }
-#facebook a{
-	background: #3b5998;
-	padding: 10px 25px;
-	color: #fff;
-	text-decoration: none;
-	width: 55px;
-	transition: all .4s ease;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+#facebook a {
+    background: #3b5998;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+    transition: all .4s ease;
 }
 #facebook a:hover{
 	background: #000;
@@ -68,7 +115,7 @@
     #whatsapp a:hover {
         background: #000;
         padding: 10px 50px;
-    }
+   
 
 
 
